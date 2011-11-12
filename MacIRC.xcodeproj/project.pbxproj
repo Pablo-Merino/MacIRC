@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E022191145D5DE500E23452 /* SNIRCTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E022190145D5DE500E23452 /* SNIRCTextView.m */; };
+		6E0EE10B145D4EA00067FA12 /* SNIRCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EE10A145D4EA00067FA12 /* SNIRCController.m */; };
+		6E5C09E9145C30E700DD1E66 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5C09E8145C30E700DD1E66 /* Cocoa.framework */; };
+		6E5C09F3145C30E700DD1E66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E5C09F1145C30E700DD1E66 /* InfoPlist.strings */; };
+		6E5C09F5145C30E700DD1E66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C09F4145C30E700DD1E66 /* main.m */; };
+		6E5C09F9145C30E700DD1E66 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6E5C09F7145C30E700DD1E66 /* Credits.rtf */; };
+		6E5C09FC145C30E700DD1E66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C09FB145C30E700DD1E66 /* AppDelegate.m */; };
+		6E5C09FF145C30E700DD1E66 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E5C09FD145C30E700DD1E66 /* MainMenu.xib */; };
+		6E5C0A07145C30E700DD1E66 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5C0A06145C30E700DD1E66 /* SenTestingKit.framework */; };
+		6E5C0A08145C30E700DD1E66 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5C09E8145C30E700DD1E66 /* Cocoa.framework */; };
+		6E5C0A10145C30E700DD1E66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E5C0A0E145C30E700DD1E66 /* InfoPlist.strings */; };
+		6E5C0A13145C30E700DD1E66 /* MacIRCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5C0A12145C30E700DD1E66 /* MacIRCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E5C0A09145C30E700DD1E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E5C09DB145C30E700DD1E66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5C09E3145C30E700DD1E66;
+			remoteInfo = MacIRC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E02218F145D5DE500E23452 /* SNIRCTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNIRCTextView.h; sourceTree = "<group>"; };
+		6E022190145D5DE500E23452 /* SNIRCTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNIRCTextView.m; sourceTree = "<group>"; };
+		6E0EE109145D4EA00067FA12 /* SNIRCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNIRCController.h; path = ../SNIRCController.h; sourceTree = "<group>"; };
+		6E0EE10A145D4EA00067FA12 /* SNIRCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNIRCController.m; path = ../SNIRCController.m; sourceTree = "<group>"; };
+		6E5C09E4145C30E700DD1E66 /* MacIRC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacIRC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5C09E8145C30E700DD1E66 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6E5C09EB145C30E700DD1E66 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6E5C09EC145C30E700DD1E66 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6E5C09ED145C30E700DD1E66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E5C09F0145C30E700DD1E66 /* MacIRC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacIRC-Info.plist"; sourceTree = "<group>"; };
+		6E5C09F2145C30E700DD1E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E5C09F4145C30E700DD1E66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E5C09F6145C30E700DD1E66 /* MacIRC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacIRC-Prefix.pch"; sourceTree = "<group>"; };
+		6E5C09F8145C30E700DD1E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6E5C09FA145C30E700DD1E66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E5C09FB145C30E700DD1E66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E5C09FE145C30E700DD1E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6E5C0A05145C30E700DD1E66 /* MacIRCTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacIRCTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5C0A06145C30E700DD1E66 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6E5C0A0D145C30E700DD1E66 /* MacIRCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacIRCTests-Info.plist"; sourceTree = "<group>"; };
+		6E5C0A0F145C30E700DD1E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E5C0A11145C30E700DD1E66 /* MacIRCTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacIRCTests.h; sourceTree = "<group>"; };
+		6E5C0A12145C30E700DD1E66 /* MacIRCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacIRCTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E5C09E1145C30E700DD1E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5C09E9145C30E700DD1E66 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5C0A01145C30E700DD1E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5C0A07145C30E700DD1E66 /* SenTestingKit.framework in Frameworks */,
+				6E5C0A08145C30E700DD1E66 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E5C09D9145C30E700DD1E66 = {
+			isa = PBXGroup;
+			children = (
+				6E5C09EE145C30E700DD1E66 /* MacIRC */,
+				6E5C0A0B145C30E700DD1E66 /* MacIRCTests */,
+				6E5C09E7145C30E700DD1E66 /* Frameworks */,
+				6E5C09E5145C30E700DD1E66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E5C09E5145C30E700DD1E66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C09E4145C30E700DD1E66 /* MacIRC.app */,
+				6E5C0A05145C30E700DD1E66 /* MacIRCTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E5C09E7145C30E700DD1E66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C09E8145C30E700DD1E66 /* Cocoa.framework */,
+				6E5C0A06145C30E700DD1E66 /* SenTestingKit.framework */,
+				6E5C09EA145C30E700DD1E66 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E5C09EA145C30E700DD1E66 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C09EB145C30E700DD1E66 /* AppKit.framework */,
+				6E5C09EC145C30E700DD1E66 /* CoreData.framework */,
+				6E5C09ED145C30E700DD1E66 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6E5C09EE145C30E700DD1E66 /* MacIRC */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C09FA145C30E700DD1E66 /* AppDelegate.h */,
+				6E5C09FB145C30E700DD1E66 /* AppDelegate.m */,
+				6E0EE109145D4EA00067FA12 /* SNIRCController.h */,
+				6E0EE10A145D4EA00067FA12 /* SNIRCController.m */,
+				6E5C09FD145C30E700DD1E66 /* MainMenu.xib */,
+				6E5C09EF145C30E700DD1E66 /* Supporting Files */,
+				6E02218F145D5DE500E23452 /* SNIRCTextView.h */,
+				6E022190145D5DE500E23452 /* SNIRCTextView.m */,
+			);
+			path = MacIRC;
+			sourceTree = "<group>";
+		};
+		6E5C09EF145C30E700DD1E66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C09F0145C30E700DD1E66 /* MacIRC-Info.plist */,
+				6E5C09F1145C30E700DD1E66 /* InfoPlist.strings */,
+				6E5C09F4145C30E700DD1E66 /* main.m */,
+				6E5C09F6145C30E700DD1E66 /* MacIRC-Prefix.pch */,
+				6E5C09F7145C30E700DD1E66 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E5C0A0B145C30E700DD1E66 /* MacIRCTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C0A11145C30E700DD1E66 /* MacIRCTests.h */,
+				6E5C0A12145C30E700DD1E66 /* MacIRCTests.m */,
+				6E5C0A0C145C30E700DD1E66 /* Supporting Files */,
+			);
+			path = MacIRCTests;
+			sourceTree = "<group>";
+		};
+		6E5C0A0C145C30E700DD1E66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E5C0A0D145C30E700DD1E66 /* MacIRCTests-Info.plist */,
+				6E5C0A0E145C30E700DD1E66 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E5C09E3145C30E700DD1E66 /* MacIRC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5C0A16145C30E700DD1E66 /* Build configuration list for PBXNativeTarget "MacIRC" */;
+			buildPhases = (
+				6E5C09E0145C30E700DD1E66 /* Sources */,
+				6E5C09E1145C30E700DD1E66 /* Frameworks */,
+				6E5C09E2145C30E700DD1E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacIRC;
+			productName = MacIRC;
+			productReference = 6E5C09E4145C30E700DD1E66 /* MacIRC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E5C0A04145C30E700DD1E66 /* MacIRCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5C0A19145C30E700DD1E66 /* Build configuration list for PBXNativeTarget "MacIRCTests" */;
+			buildPhases = (
+				6E5C0A00145C30E700DD1E66 /* Sources */,
+				6E5C0A01145C30E700DD1E66 /* Frameworks */,
+				6E5C0A02145C30E700DD1E66 /* Resources */,
+				6E5C0A03145C30E700DD1E66 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E5C0A0A145C30E700DD1E66 /* PBXTargetDependency */,
+			);
+			name = MacIRCTests;
+			productName = MacIRCTests;
+			productReference = 6E5C0A05145C30E700DD1E66 /* MacIRCTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E5C09DB145C30E700DD1E66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6E5C09DE145C30E700DD1E66 /* Build configuration list for PBXProject "MacIRC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6E5C09D9145C30E700DD1E66;
+			productRefGroup = 6E5C09E5145C30E700DD1E66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E5C09E3145C30E700DD1E66 /* MacIRC */,
+				6E5C0A04145C30E700DD1E66 /* MacIRCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E5C09E2145C30E700DD1E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5C09F3145C30E700DD1E66 /* InfoPlist.strings in Resources */,
+				6E5C09F9145C30E700DD1E66 /* Credits.rtf in Resources */,
+				6E5C09FF145C30E700DD1E66 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5C0A02145C30E700DD1E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5C0A10145C30E700DD1E66 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E5C0A03145C30E700DD1E66 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E5C09E0145C30E700DD1E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5C09F5145C30E700DD1E66 /* main.m in Sources */,
+				6E5C09FC145C30E700DD1E66 /* AppDelegate.m in Sources */,
+				6E0EE10B145D4EA00067FA12 /* SNIRCController.m in Sources */,
+				6E022191145D5DE500E23452 /* SNIRCTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5C0A00145C30E700DD1E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5C0A13145C30E700DD1E66 /* MacIRCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E5C0A0A145C30E700DD1E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E5C09E3145C30E700DD1E66 /* MacIRC */;
+			targetProxy = 6E5C0A09145C30E700DD1E66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E5C09F1145C30E700DD1E66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5C09F2145C30E700DD1E66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E5C09F7145C30E700DD1E66 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5C09F8145C30E700DD1E66 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6E5C09FD145C30E700DD1E66 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5C09FE145C30E700DD1E66 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6E5C0A0E145C30E700DD1E66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E5C0A0F145C30E700DD1E66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E5C0A14145C30E700DD1E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6E5C0A15145C30E700DD1E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6E5C0A17145C30E700DD1E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacIRC/MacIRC-Prefix.pch";
+				INFOPLIST_FILE = "MacIRC/MacIRC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E5C0A18145C30E700DD1E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacIRC/MacIRC-Prefix.pch";
+				INFOPLIST_FILE = "MacIRC/MacIRC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6E5C0A1A145C30E700DD1E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacIRC.app/Contents/MacOS/MacIRC";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacIRC/MacIRC-Prefix.pch";
+				INFOPLIST_FILE = "MacIRCTests/MacIRCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6E5C0A1B145C30E700DD1E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacIRC.app/Contents/MacOS/MacIRC";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacIRC/MacIRC-Prefix.pch";
+				INFOPLIST_FILE = "MacIRCTests/MacIRCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E5C09DE145C30E700DD1E66 /* Build configuration list for PBXProject "MacIRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5C0A14145C30E700DD1E66 /* Debug */,
+				6E5C0A15145C30E700DD1E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5C0A16145C30E700DD1E66 /* Build configuration list for PBXNativeTarget "MacIRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5C0A17145C30E700DD1E66 /* Debug */,
+				6E5C0A18145C30E700DD1E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5C0A19145C30E700DD1E66 /* Build configuration list for PBXNativeTarget "MacIRCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5C0A1A145C30E700DD1E66 /* Debug */,
+				6E5C0A1B145C30E700DD1E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E5C09DB145C30E700DD1E66 /* Project object */;
+}
