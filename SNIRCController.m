@@ -113,7 +113,7 @@
                     [delegate serverTalked:output];
                     
                     [delegate connectedToTheServer];
-                    
+                    NSLog(@"%@", output);
 
                     NSArray *msg = [self parseString:output];
                     NSString *antispoof = nil;

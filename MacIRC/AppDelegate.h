@@ -12,7 +12,7 @@ typedef enum {
     parseTypeMessage,
     parseTypeNick
 } parseType;
-@interface AppDelegate : NSObject <NSApplicationDelegate, NSStreamDelegate, SNIRCControllerDelegate> {
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSStreamDelegate, SNIRCControllerDelegate, NSTableViewDelegate, NSTableViewDataSource> {
     
     IBOutlet NSTextView *logField;
     SNIRCController *ircController;
@@ -21,8 +21,13 @@ typedef enum {
     BOOL isConnected;
     NSString *command;
     IBOutlet NSTextFieldCell *textField;
-
+    IBOutlet NSTableView *tableView;
     NSArray *userArray;
+    NSString *bitchData;
+    NSString *users;
+    NSString *bitchSender;
+    NSString *myself;
+
 }
 
 @property (assign) IBOutlet NSWindow *window;
@@ -32,4 +37,6 @@ typedef enum {
 - (IBAction)leaveChannel:(id)sender;
 - (IBAction)sendMessage:(id)sender;
 - (NSString*)parseString:(NSString*)string withType:(parseType)type;
+- (NSMutableArray*)updateUserList:(NSString*)data;
+
 @end
